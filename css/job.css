@@ -1,0 +1,133 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0c0b0b;
+    color: #f5eeee;
+    text-align: center;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    background-color: #0f0f0f;
+    color: white;
+    padding: 15px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .search-bar {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #ddaf58;
+    border-radius: 20px 0 0 20px;
+    font-size: 1rem;
+  }
+  
+  .search-bar button {
+    background-color: #cc8484;
+    border: none;
+    padding: 0 15px;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+  }
+  
+  .search-bar button img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  main h2 {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+  
+  .job-buttons {
+    margin-top: 20px;
+  }
+  
+  .job-buttons button {
+    display: block;
+    width: 90%;
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 10px 0;
+    background-color: #15caca;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .job-buttons button:hover {
+    background-color: #0000cc;
+  }
+  header {
+    background-color: #0f5792;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.signup-btn {
+    background-color: #22c55e;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.signup-btn:hover {
+    background-color: #16a34a;
+}
+.logo img {
+    height: 50px; /* Adjust as necessary */
+    width: auto;
+}
